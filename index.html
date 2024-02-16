@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account dropdown</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <i class="fa-regular fa-envelope"></i>
+            <i class="fa-regular fa-bell"></i>
+            <div class="link" data-dropdown-button>
+                <a href="javascript:void(0)" data-dropdown>John</a>
+                <i class="fa-solid fa-caret-down"></i>
+            </div>
+        </nav>
+        <div class="card">
+            <div class="user">
+                <img src="https://images.pexels.com/photos/2287252/pexels-photo-2287252.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">
+                <div class="details">
+                    <h4>John Smith</h4>
+                    <p>Manager</p>
+                    <div class="btns">
+                        <button class="btn">View Profile</button>
+                        <button class="btn">Add Account</button>
+                    </div>
+                </div>
+        
+            </div>
+            <ul class="dropdown-menu active">
+                <li>Upgrade to <span>PRO</span></li>
+                <li>Invite team member</li>
+                <li>Feedback</li>
+                <li>Help</li>
+                <li>Sign Out</li>
+            </ul>
+        </div>
+    </div>
+    
+</body>
+<script src="script.js"></script>
+</html>
